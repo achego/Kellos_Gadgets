@@ -1,0 +1,10 @@
+.NavItem {
+  transition: 0.3s 0.2s ease-in;
+  color: var(--light-text);
+}
+
+.NavItem:hover,
+.active {
+  color: var(--primary-color);
+  cursor: pointer;
+}

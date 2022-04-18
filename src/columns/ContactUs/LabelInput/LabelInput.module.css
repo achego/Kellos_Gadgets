@@ -1,0 +1,35 @@
+.LabelInput {
+text-transform: capitalize;
+margin-bottom: 1.5rem;
+}
+
+.LabelInput p {
+  font-weight: 600;
+  padding-bottom: 0.6rem;
+  font-size: 1.1rem;
+}
+
+.LabelInput div {
+  width: 100%;
+}
+
+.LabelInput div input,
+.LabelInput div textarea {
+    text-transform: capitalize;
+  width: 100%;
+  min-height: 100%;
+  border: 1px solid var(--bg-medium);
+  padding: 1rem 1rem;
+  border-radius: 7px;
+  transition: all 0.4s;
+  font-size: 0.9rem;
+  background-color: var(--bg-light);
+  font-family: 'Poppins', sans-serif;
+}
+
+.LabelInput div input:focus,
+.LabelInput div textarea:focus {
+    outline: none;
+  border: 1px solid rgb(var(--primary-color));
+;
+}

@@ -1,0 +1,19 @@
+.heading {
+  text-align: center;
+  max-width: 32rem;
+  padding-bottom: 4.4rem;
+  margin: auto;
+}
+
+.heading h1 {
+  text-transform: capitalize;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--dark-text);
+  padding-bottom: 1rem;
+}
+
+.heading p {
+  color: var(--light-text);
+  font-weight: 500;
+}

@@ -1,0 +1,17 @@
+.ScrollToTop {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--primary-color);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+}
+
+.ScrollToTop:hover {
+    cursor: pointer;
+}

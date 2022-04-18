@@ -1,0 +1,6 @@
+.LinkText {
+    display: flex;
+    font-weight: 500;
+    column-gap: 5px;
+    color: var(--primary-color);
+}

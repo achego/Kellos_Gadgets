@@ -1,0 +1,51 @@
+.GetApp {
+    padding-top: var(--def-sect-pad);
+}
+
+.GetAppC {
+    padding: 0 4rem;
+    background-color: var(--bg-dark);
+}
+
+.download {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.getAppImages {
+    display: flex;
+    width: 100%;
+}
+
+.getAppImages img:first-child {
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 1319px) {
+    .getAppImages img:nth-child(2) {
+        margin-left: -4rem;
+        z-index: 1;
+        padding-top: 7rem;
+    }
+    .download {
+        column-gap: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1095px) {
+    .getAppImages img {
+        max-height: 300px;
+        
+    }
+  } 
+
+  @media screen and (max-width: 514px) {
+    .GetAppC {
+        padding: 0 1rem;
+    }
+    .getAppImages img{
+        max-height: 250px;
+    }
+}
+  

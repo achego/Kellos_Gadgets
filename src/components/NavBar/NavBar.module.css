@@ -1,0 +1,79 @@
+.NavBar {
+    height: var(--appbar-height);
+    color: white;
+    width: 100%;
+    transition: all 0.4s;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.NavBarC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.NavBarC nav {
+    display: flex;
+    align-items: center;
+}
+
+.NavBarC ul {
+    display: flex;
+    text-transform: capitalize;
+}
+
+.NavBar ul li {
+    margin-left: 3rem;
+}
+
+.NavBar ul li:first-child {
+    padding-left: 0;
+}
+
+.btn {
+    margin-left: 3rem;
+}
+
+.toogleNight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
+    color: var(--dark-text);
+}
+
+.toogleNight:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    padding-left: 1rem;
+    color: var(--dark-text);
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 909px) {
+    .NavBar ul {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+@media screen and (max-width: 514px) {
+    .btn,
+    .toogleNight {
+        display: none
+    }
+}

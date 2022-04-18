@@ -1,0 +1,23 @@
+
+.RecentAwards {
+    padding-top: var(--def-sect-pad);
+}
+
+.awards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+@media screen and (max-width: 1095px) {
+    .awards {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 774px) {
+    .awards {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }}

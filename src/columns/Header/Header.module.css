@@ -1,0 +1,109 @@
+.Header {
+  padding-top: var(--appbar-height);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 2.5rem;
+  background-color: var(--bg-dark);
+  align-items: center;
+}
+
+.hero_text {
+  margin-right: 5rem;
+  padding: 0 1rem;
+}
+
+.hero_text h1 {
+  text-transform: capitalize;
+  font-size: 2.9rem;
+  color: var(--dark-text);
+  margin-bottom: 2rem;
+}
+.hero_text p {
+  font-weight: 500;
+  color: var(--light-text);
+  margin-bottom: 4rem;
+}
+
+.OS {
+  padding: 0.6rem;
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.btn2 {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: var(--bg-medium);
+  border-radius: 4rem;
+  margin-right: 1rem;
+  transition: 0.3s;
+}
+
+.btn2 h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.btn2:hover div {
+  background-color: var(--primary-color);
+}
+
+.btn2:hover h3 {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.hero_image {
+  justify-self: center;
+}
+
+@media screen and (max-width: 1095px) {
+  .hero_text {
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 909px) {
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .hero_text {
+    max-width: 600px;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 774px) {
+  .hero_text h1 {
+    font-size: 2.1rem;
+  }
+  .hero_text {
+    width: 100%;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .hero {
+    padding: 4rem 1rem;
+  }
+
+  .hero_text p {
+      word-wrap: break-word;
+  }
+}

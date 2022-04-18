@@ -1,0 +1,12 @@
+.App {
+    background-color: var(--bg-light);
+    transition: 0.4s;
+}
+
+.dark {
+  --bg-award: var(--bg-dark);
+    --dark-text: rgb(255, 255, 255);
+    --bg-light: rgb(24, 16, 59);
+  /* --bg-dark: rgba(var(var(--primary-color), 0.2)); */
+  
+}

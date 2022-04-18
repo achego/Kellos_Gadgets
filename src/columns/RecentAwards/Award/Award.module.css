@@ -1,0 +1,33 @@
+.Award {
+    padding: 3rem;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.08);;
+    color: var(--dark-text);
+    background-color: var(--bg-award)
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    font-size: 1.13rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+}
+
+.sub {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.desc {
+    margin-bottom: 2.25rem;
+    color: var(--light-text);
+}
