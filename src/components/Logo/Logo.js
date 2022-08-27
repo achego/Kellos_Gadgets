@@ -3,7 +3,7 @@ import cs from './Logo.module.css'
 
 const Logo = () => {
   return (
-    <div className={cs.Logo}>Kellos</div>
+    <div className={cs.Logo}>belwind</div>
   )
 }
 
